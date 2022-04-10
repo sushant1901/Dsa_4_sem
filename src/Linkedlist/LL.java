@@ -1,4 +1,4 @@
-package Linkedlist;
+/*package Linkedlist;
 
 public class LL {
     linkedList1.Node head;
@@ -99,3 +99,4 @@ public class LL {
          return size;
     }
 }
+*/
