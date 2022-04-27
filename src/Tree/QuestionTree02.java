@@ -1,4 +1,4 @@
-package Tree;
+/*package Tree;
 
 public class QuestionTree02 {
     static class Node{
@@ -38,3 +38,5 @@ public class QuestionTree02 {
         System.out.println(sumOfNodes(root));
     }
 }
+
+ */

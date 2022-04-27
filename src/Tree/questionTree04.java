@@ -1,4 +1,4 @@
-package Tree;
+/*package Tree;
 
 public class questionTree04 {
     static class Node{
@@ -47,3 +47,6 @@ public class questionTree04 {
         System.out.println(diameter1(root));
     }
 }
+
+
+ */

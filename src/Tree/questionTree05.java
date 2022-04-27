@@ -1,4 +1,4 @@
-package Tree;
+/*package Tree;
 
 public class questionTree05 {
     static class Node{
@@ -24,7 +24,7 @@ public class questionTree05 {
             return newNode;
         }
     }
-    /*public static int heightOfTree(Node root){
+    public static int heightOfTree(Node root){
         if(root == null) return 0;
         int leftheight =heightOfTree(root.left);
         int rightheight= heightOfTree(root.right);
@@ -32,7 +32,7 @@ public class questionTree05 {
         return myHeight;
     }
 
-     */
+
     static class TreeInfo{
         int ht;
         int diam;
@@ -68,3 +68,6 @@ public class questionTree05 {
         System.out.println(diameter2(root).diam);
     }
 }
+
+ */
+

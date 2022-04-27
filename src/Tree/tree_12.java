@@ -1,5 +1,5 @@
 package Tree;
-import java.util.*;
+/*import java.util.*;
 import java.io.*;
 
 class tree_12 {
@@ -64,3 +64,5 @@ class BST{
         }
     }
 }
+
+ */

@@ -1,4 +1,4 @@
-package Linkedlist;
+/*package Linkedlist;
 import org.w3c.dom.Node;
 
 import java.util.*;
@@ -14,7 +14,7 @@ public class linkedList2 {
             this.next= null;
         }
     }
-   /* public void addFirst(int data){
+      public void addFirst(int data){
         Node newNode =new Node(data);
         if(head== null){
             head=newNode;
@@ -22,16 +22,9 @@ public class linkedList2 {
         }
         newNode=head;
         head=newNode;
-    }*/
-
-    public void printList(){
-        Node currNode = head;
-        while(currNode!= null){
-            System.out.print(currNode.data+" -> ");
-            currNode= currNode.next;
-        }
-        System.out.println("null");
     }
+
+
 
     public static void main(String[] args) {
         linkedList1 list= new linkedList1();
@@ -55,3 +48,4 @@ public class linkedList2 {
     }
 
 }
+*/

@@ -1,5 +1,5 @@
 package Searching;
-class BinarySearch {
+/*class BinarySearch {
     // Returns index of x if it is present in arr[l..
     // r], else return -1
     int binarySearch(int arr[], int l, int r, int x)
@@ -41,4 +41,8 @@ class BinarySearch {
             System.out.println("Element found at index "
                     + result);
     }
+
+
 }
+
+ */

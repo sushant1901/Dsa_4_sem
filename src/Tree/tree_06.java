@@ -1,4 +1,4 @@
-package Tree;
+/*package Tree;
 
 public class tree_06 {
     static class Node{
@@ -38,3 +38,5 @@ public class tree_06 {
 
     }
 }
+*/
+

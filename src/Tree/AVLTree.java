@@ -1,4 +1,4 @@
-package Tree;
+/*package Tree;
 // Java program for insertion in AVL Tree
 class Node {
     int key, height;
@@ -73,7 +73,7 @@ class AVLTree {
 
     Node insert(Node node, int key) {
 
-        /* 1. Perform the normal BST insertion */
+        //1. Perform the normal BST insertion
         if (node == null)
             return (new Node(key));
 
@@ -84,22 +84,22 @@ class AVLTree {
         else // Duplicate keys not allowed
             return node;
 
-        /* 2. Update height of this ancestor node */
-        node.height = 1 + max(height(node.left),
+        // 2. Update height of this ancestor node
+        /*node.height = 1 + max(height(node.left),
                 height(node.right));
 
-		/* 3. Get the balance factor of this ancestor
-			node to check whether this node became
-			unbalanced */
+		// 3. Get the balance factor of this ancestor
+		//	node to check whether this node became
+			///unbalanced
         int balance = getBalance(node);
 
         // If this node becomes unbalanced, then there
         // are 4 cases Left Left Case
         if (balance > 1 && key < node.left.key)
-            return rightRotate(node);
+            return rightRotate(node);*/
 
         // Right Right Case
-        if (balance < -1 && key > node.right.key)
+      /*  if (balance < -1 && key > node.right.key)
             return leftRotate(node);
 
         // Left Right Case
@@ -114,25 +114,25 @@ class AVLTree {
             return leftRotate(node);
         }
 
-        /* return the (unchanged) node pointer */
+        // return the (unchanged) node pointer
         return node;
-    }
+    }*/
 
     // A utility function to print preorder traversal
     // of the tree.
     // The function also prints height of every node
-    void preOrder(Node node) {
+   /* void preOrder(Node node) {
         if (node != null) {
             System.out.print(node.key + " ");
             preOrder(node.left);
             preOrder(node.right);
         }
-    }
+    }*/
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         AVLTree tree = new AVLTree();
 
-        /* Constructing tree given in the above figure */
+         Constructing tree given in the above figure
         tree.root = tree.insert(tree.root, 10);
         tree.root = tree.insert(tree.root, 20);
         tree.root = tree.insert(tree.root, 30);
@@ -140,16 +140,17 @@ class AVLTree {
         tree.root = tree.insert(tree.root, 50);
         tree.root = tree.insert(tree.root, 25);
 
-		/* The constructed AVL Tree would be
+		The constructed AVL Tree would be
 			30
 			/ \
 		20 40
 		/ \	 \
 		10 25 50
-		*/
+
         System.out.println("Preorder traversal" +
                 " of constructed tree is : ");
         tree.preOrder(tree.root);
     }
 }
+*/
 // This code has been contributed by Mayank Jaiswal
