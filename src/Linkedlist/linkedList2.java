@@ -1,6 +1,7 @@
 /*package Linkedlist;
 import org.w3c.dom.Node;
 
+// Adition of Node
 import java.util.*;
 public class linkedList2 {
     Node head;
