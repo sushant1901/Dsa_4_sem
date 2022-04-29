@@ -1,5 +1,5 @@
 /*package Tree;
-
+import java.util.*;
 import com.sun.source.tree.BinaryTree;
 
 public class tree_01 {
