@@ -1,4 +1,5 @@
 package Searching;
+import Java.util.*;
 /*class BinarySearch {
     // Returns index of x if it is present in arr[l..
     // r], else return -1
