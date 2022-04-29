@@ -1,6 +1,6 @@
 package Linkedlist;
 import org.w3c.dom.Node;
-
+//creating Node of Linked List
 import java.util.*;
 public class linkedList {
     Node head;// head of the linked list
