@@ -1,5 +1,5 @@
 /*package Tree;
-
+import java.util.*;
 public class tree_03 {
     static class Node {
         int data;
