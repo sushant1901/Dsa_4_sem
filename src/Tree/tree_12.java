@@ -11,6 +11,7 @@ class tree_12 {
 
         tree.inorder();
     }
+    
 }
 
 class Node{
