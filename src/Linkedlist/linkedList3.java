@@ -2,6 +2,7 @@
 import org.w3c.dom.Node;
 
 import java.util.*;
+// Deletion of Node
 public class linkedList3{
     Node head;
 
