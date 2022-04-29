@@ -13,6 +13,7 @@ public class tree_05 {
             this.right = null;
         }
     }
+    
     static class binaryTree{
         static int  idx=-1;
         public static Node buildTree(int[] nodes){
