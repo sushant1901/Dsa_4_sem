@@ -19,6 +19,7 @@ public class tree_02{
                 return;
             }
             System.out.println(root.data);
+           
             preorderTraversal(root.left);
             preorderTraversal(root.right);
         }
