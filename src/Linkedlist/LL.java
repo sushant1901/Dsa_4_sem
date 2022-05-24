@@ -57,6 +57,7 @@ public class LL {
 
     void addlast(int data) {
         linkedList1.Node newNode= new linkedList1.Node(data);
+        
         if(head == null){
             head = newNode;
             return;
