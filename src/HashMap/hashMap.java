@@ -28,6 +28,7 @@ class MyHash
     }
 }
 
+
 class GFG
 {
 	public static void main(String[] args) 
